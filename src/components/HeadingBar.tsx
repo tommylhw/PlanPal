@@ -21,7 +21,7 @@ import {
 // icons
 import Feather from 'react-native-vector-icons/Feather';
 import AntDesign from 'react-native-vector-icons/AntDesign';
-import Entypo from 'react-native-vector-icons/Entypo';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 const HeadingBar = () => {
   return (
@@ -38,9 +38,17 @@ const HeadingBar = () => {
         </View>
       </View>
 
-      <View className='flex-row gap-[16px]'>
-        <AntDesign name='plus' size={20} />
-        <Entypo name="plus" size={20} />
+      <View className="flex-row gap-[16px]">
+        <TouchableOpacity>
+          <AntDesign name="plus" size={20} color={'#98989A'} />
+        </TouchableOpacity>
+        <TouchableOpacity>
+          <MaterialCommunityIcons
+            name="dots-horizontal"
+            size={20}
+            color={'#98989A'}
+          />
+        </TouchableOpacity>
       </View>
     </View>
   );

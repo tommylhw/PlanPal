@@ -21,11 +21,13 @@ import {
 
 // components
 import HeadingBar from '../HeadingBar';
+import TaskContainer from '../TaskContainer';
 
 const TaskTab = () => {
   return (
     <View className="flex-1 bg-[--color-surface] items-center justify-start py-[16px]">
       <HeadingBar />
+      <TaskContainer />
     </View>
   );
 };
