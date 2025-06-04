@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041D594696D2474FA484AC82 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 257169592F8642E18462FAF9 /* Poppins-Thin.ttf */; };
+		05FDE4B7664481DCBE7A171A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		0C80B921A6F3F58F76C31292 /* libPods-planpal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-planpal.a */; };
+		0E23D2BBC2AA4032A0F9460E /* RedditSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA93655D88744593BF765810 /* RedditSans-BlackItalic.ttf */; };
+		0FA39F9D203945A48D3708B9 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08CDC33D9E0648888CDA265D /* Poppins-Bold.ttf */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		1CA0107A35F84907B0BDD15C /* RedditSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4268CA411F6748708C29E65B /* RedditSans-SemiBoldItalic.ttf */; };
+		214EE94B5DAF462797132CC4 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D9BA38F1C2340CB9C34377C /* Poppins-ExtraBold.ttf */; };
+		22A09EBC7B3F4074A4057E85 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3EC1AE6280CF4B519BC26916 /* Poppins-BlackItalic.ttf */; };
+		2398DB5C469045E3A9398E3C /* RedditSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD4C8762C75E4C848BA097FD /* RedditSans-Regular.ttf */; };
+		26EE7EA42AC545728C51D213 /* RedditSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFD308AD3DA14BA6B68384B9 /* RedditSans-Bold.ttf */; };
+		416F76DB3D3D45D3A8F994F3 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F049D582DF240F0A0912306 /* Poppins-Black.ttf */; };
+		52A93B4E92074073941B41A5 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF5C927F179F4DDA86F0D241 /* Poppins-ExtraLightItalic.ttf */; };
+		5A3326B178D7418283C5DA43 /* RedditSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14A405D0D91A4165916577DF /* RedditSans-SemiBold.ttf */; };
+		5C00980B51C245CBB64124CA /* RedditSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5849176038344E719686DEEC /* RedditSans-ExtraBoldItalic.ttf */; };
+		68E82227D066419DBE080AEA /* RedditSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEAB740213684672892D90F7 /* RedditSans-ExtraLight.ttf */; };
+		6B27C8B4F7BB49D8A1544606 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A84A56F936A48279E3D8D7E /* Poppins-LightItalic.ttf */; };
+		6CEED1D55EEA4A40AEDB8A94 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 927A6D2BE89E4113B4944364 /* Poppins-ExtraLight.ttf */; };
+		753EF9B8C57742EDA8F3AD32 /* RedditSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B24EEFCFF3E4A119BEEF417 /* RedditSans-Italic.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		78F5CE33F1BF4DF08C37AAD3 /* Reddit Sans Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E9BD89C697141DF90907CC9 /* Reddit Sans Black.ttf */; };
+		7AEAA588AEE8411D83422F91 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FEBFEE85C07C401B89852791 /* Poppins-BoldItalic.ttf */; };
+		7C45F4D4D42948DBBD4C0A96 /* RedditSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C695C8754FF4A1FABA3CE4E /* RedditSans-MediumItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		82470601633A468A93956DEE /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24C1EE7A6BD34AC380477CC7 /* Poppins-Italic.ttf */; };
+		88704BAA4BDA4DCDBC89C5BF /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1EFA4138B4A492189228906 /* Poppins-SemiBoldItalic.ttf */; };
+		8A1BC41107A7439E9A3FD02F /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E100C7B394C4D0FAFDA3EED /* Poppins-ExtraBoldItalic.ttf */; };
+		97B25E5B3339496CABEF2766 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB635151EA5D4BA28099F823 /* Poppins-Light.ttf */; };
+		9C4FEC25FC0743FDACC75E03 /* RedditSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8C46EDEAD424236AE11D4BB /* RedditSans-Medium.ttf */; };
+		9F33A584A0334D6DADBADF96 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36699EE61AE146B18DFBEE0C /* Poppins-SemiBold.ttf */; };
+		9F6EDF0B13E345F7B34A6290 /* RedditSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71BC8B0443D24C81B1FC6DB6 /* RedditSans-BoldItalic.ttf */; };
+		9FE66DEAA0F54ACF8C7A2FCF /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 859448082A0449EB85775336 /* Poppins-Regular.ttf */; };
+		A42273862DF03F0700A3C0D4 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273832DF03F0700A3C0D4 /* SimpleLineIcons.ttf */; };
+		A42273872DF03F0700A3C0D4 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273752DF03F0700A3C0D4 /* Feather.ttf */; };
+		A42273882DF03F0700A3C0D4 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273792DF03F0700A3C0D4 /* FontAwesome5_Solid.ttf */; };
+		A42273892DF03F0700A3C0D4 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273762DF03F0700A3C0D4 /* FontAwesome.ttf */; };
+		A422738A2DF03F0700A3C0D4 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273722DF03F0700A3C0D4 /* AntDesign.ttf */; };
+		A422738B2DF03F0700A3C0D4 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273742DF03F0700A3C0D4 /* EvilIcons.ttf */; };
+		A422738C2DF03F0700A3C0D4 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A422737E2DF03F0700A3C0D4 /* Foundation.ttf */; };
+		A422738D2DF03F0700A3C0D4 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A422737A2DF03F0700A3C0D4 /* FontAwesome6_Brands.ttf */; };
+		A422738E2DF03F0700A3C0D4 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273802DF03F0700A3C0D4 /* MaterialCommunityIcons.ttf */; };
+		A422738F2DF03F0700A3C0D4 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273782DF03F0700A3C0D4 /* FontAwesome5_Regular.ttf */; };
+		A42273902DF03F0700A3C0D4 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A422737C2DF03F0700A3C0D4 /* FontAwesome6_Solid.ttf */; };
+		A42273912DF03F0700A3C0D4 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273822DF03F0700A3C0D4 /* Octicons.ttf */; };
+		A42273922DF03F0700A3C0D4 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A422737B2DF03F0700A3C0D4 /* FontAwesome6_Regular.ttf */; };
+		A42273932DF03F0700A3C0D4 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273842DF03F0700A3C0D4 /* Zocial.ttf */; };
+		A42273942DF03F0700A3C0D4 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273732DF03F0700A3C0D4 /* Entypo.ttf */; };
+		A42273952DF03F0700A3C0D4 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273812DF03F0700A3C0D4 /* MaterialIcons.ttf */; };
+		A42273962DF03F0700A3C0D4 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A42273772DF03F0700A3C0D4 /* FontAwesome5_Brands.ttf */; };
+		A42273972DF03F0700A3C0D4 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A422737F2DF03F0700A3C0D4 /* Ionicons.ttf */; };
+		A42273982DF03F0700A3C0D4 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A422737D2DF03F0700A3C0D4 /* Fontisto.ttf */; };
+		D05D26EB78BE48E6941D1EC7 /* RedditSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2ACBE17A2063405DA8C0AE73 /* RedditSans-ExtraLightItalic.ttf */; };
+		D680B66C17B3484C8EA02344 /* RedditSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF3AB6E2DDB64868B11959BF /* RedditSans-Light.ttf */; };
+		DC880DB367504842961D4AAD /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 41EDBCD09FD24F93A4B01E4B /* Poppins-ThinItalic.ttf */; };
+		DE553CFD76534238A8224DD6 /* RedditSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16FA196F610D48BC8BF81CC9 /* RedditSans-LightItalic.ttf */; };
+		EA5A4A0FECC54FCC8A81C94D /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A83BD2D5D059495295C70236 /* Poppins-MediumItalic.ttf */; };
+		F5A0037F0C3045E9A3562478 /* RedditSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D58FE5F98A1420D8EF33505 /* RedditSans-ExtraBold.ttf */; };
+		F5BF3D453BDD4E8FA50744EF /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9B43D9E675E423899721F95 /* Poppins-Medium.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08CDC33D9E0648888CDA265D /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* planpal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = planpal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = planpal/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = planpal/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = planpal/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		14A405D0D91A4165916577DF /* RedditSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-SemiBold.ttf"; path = "../assets/fonts/RedditSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		16FA196F610D48BC8BF81CC9 /* RedditSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-LightItalic.ttf"; path = "../assets/fonts/RedditSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		1A84A56F936A48279E3D8D7E /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../assets/fonts/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		24C1EE7A6BD34AC380477CC7 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Italic.ttf"; path = "../assets/fonts/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		257169592F8642E18462FAF9 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../assets/fonts/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		2ACBE17A2063405DA8C0AE73 /* RedditSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-ExtraLightItalic.ttf"; path = "../assets/fonts/RedditSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		2E100C7B394C4D0FAFDA3EED /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../assets/fonts/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		36699EE61AE146B18DFBEE0C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-planpal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planpal.debug.xcconfig"; path = "Target Support Files/Pods-planpal/Pods-planpal.debug.xcconfig"; sourceTree = "<group>"; };
+		3EC1AE6280CF4B519BC26916 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../assets/fonts/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3F049D582DF240F0A0912306 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		41EDBCD09FD24F93A4B01E4B /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../assets/fonts/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4268CA411F6748708C29E65B /* RedditSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-SemiBoldItalic.ttf"; path = "../assets/fonts/RedditSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		4D9BA38F1C2340CB9C34377C /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-planpal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planpal.release.xcconfig"; path = "Target Support Files/Pods-planpal/Pods-planpal.release.xcconfig"; sourceTree = "<group>"; };
+		5849176038344E719686DEEC /* RedditSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/RedditSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-planpal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-planpal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B24EEFCFF3E4A119BEEF417 /* RedditSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-Italic.ttf"; path = "../assets/fonts/RedditSans-Italic.ttf"; sourceTree = "<group>"; };
+		71BC8B0443D24C81B1FC6DB6 /* RedditSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-BoldItalic.ttf"; path = "../assets/fonts/RedditSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = planpal/AppDelegate.swift; sourceTree = "<group>"; };
+		7E9BD89C697141DF90907CC9 /* Reddit Sans Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Reddit Sans Black.ttf"; path = "../assets/fonts/Reddit Sans Black.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = planpal/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		859448082A0449EB85775336 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		8D58FE5F98A1420D8EF33505 /* RedditSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-ExtraBold.ttf"; path = "../assets/fonts/RedditSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		927A6D2BE89E4113B4944364 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../assets/fonts/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		9C695C8754FF4A1FABA3CE4E /* RedditSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-MediumItalic.ttf"; path = "../assets/fonts/RedditSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A42273722DF03F0700A3C0D4 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		A42273732DF03F0700A3C0D4 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		A42273742DF03F0700A3C0D4 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		A42273752DF03F0700A3C0D4 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		A42273762DF03F0700A3C0D4 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		A42273772DF03F0700A3C0D4 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		A42273782DF03F0700A3C0D4 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		A42273792DF03F0700A3C0D4 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		A422737A2DF03F0700A3C0D4 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		A422737B2DF03F0700A3C0D4 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		A422737C2DF03F0700A3C0D4 /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		A422737D2DF03F0700A3C0D4 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		A422737E2DF03F0700A3C0D4 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		A422737F2DF03F0700A3C0D4 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		A42273802DF03F0700A3C0D4 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		A42273812DF03F0700A3C0D4 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		A42273822DF03F0700A3C0D4 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		A42273832DF03F0700A3C0D4 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		A42273842DF03F0700A3C0D4 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		A83BD2D5D059495295C70236 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../assets/fonts/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B9B43D9E675E423899721F95 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		BD4C8762C75E4C848BA097FD /* RedditSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-Regular.ttf"; path = "../assets/fonts/RedditSans-Regular.ttf"; sourceTree = "<group>"; };
+		C1EFA4138B4A492189228906 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../assets/fonts/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CF3AB6E2DDB64868B11959BF /* RedditSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-Light.ttf"; path = "../assets/fonts/RedditSans-Light.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F8C46EDEAD424236AE11D4BB /* RedditSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-Medium.ttf"; path = "../assets/fonts/RedditSans-Medium.ttf"; sourceTree = "<group>"; };
+		FA93655D88744593BF765810 /* RedditSans-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-BlackItalic.ttf"; path = "../assets/fonts/RedditSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FB635151EA5D4BA28099F823 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		FEAB740213684672892D90F7 /* RedditSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-ExtraLight.ttf"; path = "../assets/fonts/RedditSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		FEBFEE85C07C401B89852791 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../assets/fonts/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FF5C927F179F4DDA86F0D241 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../assets/fonts/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		FFD308AD3DA14BA6B68384B9 /* RedditSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "RedditSans-Bold.ttf"; path = "../assets/fonts/RedditSans-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-planpal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* planpal */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = planpal;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-planpal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				A42273852DF03F0700A3C0D4 /* Fonts */,
+				13B07FAE1A68108700A75B9A /* planpal */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				B493099048FF43CC972714C4 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* planpal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A42273852DF03F0700A3C0D4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A42273722DF03F0700A3C0D4 /* AntDesign.ttf */,
+				A42273732DF03F0700A3C0D4 /* Entypo.ttf */,
+				A42273742DF03F0700A3C0D4 /* EvilIcons.ttf */,
+				A42273752DF03F0700A3C0D4 /* Feather.ttf */,
+				A42273762DF03F0700A3C0D4 /* FontAwesome.ttf */,
+				A42273772DF03F0700A3C0D4 /* FontAwesome5_Brands.ttf */,
+				A42273782DF03F0700A3C0D4 /* FontAwesome5_Regular.ttf */,
+				A42273792DF03F0700A3C0D4 /* FontAwesome5_Solid.ttf */,
+				A422737A2DF03F0700A3C0D4 /* FontAwesome6_Brands.ttf */,
+				A422737B2DF03F0700A3C0D4 /* FontAwesome6_Regular.ttf */,
+				A422737C2DF03F0700A3C0D4 /* FontAwesome6_Solid.ttf */,
+				A422737D2DF03F0700A3C0D4 /* Fontisto.ttf */,
+				A422737E2DF03F0700A3C0D4 /* Foundation.ttf */,
+				A422737F2DF03F0700A3C0D4 /* Ionicons.ttf */,
+				A42273802DF03F0700A3C0D4 /* MaterialCommunityIcons.ttf */,
+				A42273812DF03F0700A3C0D4 /* MaterialIcons.ttf */,
+				A42273822DF03F0700A3C0D4 /* Octicons.ttf */,
+				A42273832DF03F0700A3C0D4 /* SimpleLineIcons.ttf */,
+				A42273842DF03F0700A3C0D4 /* Zocial.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B493099048FF43CC972714C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F049D582DF240F0A0912306 /* Poppins-Black.ttf */,
+				3EC1AE6280CF4B519BC26916 /* Poppins-BlackItalic.ttf */,
+				08CDC33D9E0648888CDA265D /* Poppins-Bold.ttf */,
+				FEBFEE85C07C401B89852791 /* Poppins-BoldItalic.ttf */,
+				4D9BA38F1C2340CB9C34377C /* Poppins-ExtraBold.ttf */,
+				2E100C7B394C4D0FAFDA3EED /* Poppins-ExtraBoldItalic.ttf */,
+				927A6D2BE89E4113B4944364 /* Poppins-ExtraLight.ttf */,
+				FF5C927F179F4DDA86F0D241 /* Poppins-ExtraLightItalic.ttf */,
+				24C1EE7A6BD34AC380477CC7 /* Poppins-Italic.ttf */,
+				FB635151EA5D4BA28099F823 /* Poppins-Light.ttf */,
+				1A84A56F936A48279E3D8D7E /* Poppins-LightItalic.ttf */,
+				B9B43D9E675E423899721F95 /* Poppins-Medium.ttf */,
+				A83BD2D5D059495295C70236 /* Poppins-MediumItalic.ttf */,
+				859448082A0449EB85775336 /* Poppins-Regular.ttf */,
+				36699EE61AE146B18DFBEE0C /* Poppins-SemiBold.ttf */,
+				C1EFA4138B4A492189228906 /* Poppins-SemiBoldItalic.ttf */,
+				257169592F8642E18462FAF9 /* Poppins-Thin.ttf */,
+				41EDBCD09FD24F93A4B01E4B /* Poppins-ThinItalic.ttf */,
+				7E9BD89C697141DF90907CC9 /* Reddit Sans Black.ttf */,
+				FA93655D88744593BF765810 /* RedditSans-BlackItalic.ttf */,
+				FFD308AD3DA14BA6B68384B9 /* RedditSans-Bold.ttf */,
+				71BC8B0443D24C81B1FC6DB6 /* RedditSans-BoldItalic.ttf */,
+				8D58FE5F98A1420D8EF33505 /* RedditSans-ExtraBold.ttf */,
+				5849176038344E719686DEEC /* RedditSans-ExtraBoldItalic.ttf */,
+				FEAB740213684672892D90F7 /* RedditSans-ExtraLight.ttf */,
+				2ACBE17A2063405DA8C0AE73 /* RedditSans-ExtraLightItalic.ttf */,
+				6B24EEFCFF3E4A119BEEF417 /* RedditSans-Italic.ttf */,
+				CF3AB6E2DDB64868B11959BF /* RedditSans-Light.ttf */,
+				16FA196F610D48BC8BF81CC9 /* RedditSans-LightItalic.ttf */,
+				F8C46EDEAD424236AE11D4BB /* RedditSans-Medium.ttf */,
+				9C695C8754FF4A1FABA3CE4E /* RedditSans-MediumItalic.ttf */,
+				BD4C8762C75E4C848BA097FD /* RedditSans-Regular.ttf */,
+				14A405D0D91A4165916577DF /* RedditSans-SemiBold.ttf */,
+				4268CA411F6748708C29E65B /* RedditSans-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-planpal.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-planpal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* planpal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "planpal" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = planpal;
+			productName = planpal;
+			productReference = 13B07F961A680F5B00A75B9A /* planpal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "planpal" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* planpal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				05FDE4B7664481DCBE7A171A /* PrivacyInfo.xcprivacy in Resources */,
+				416F76DB3D3D45D3A8F994F3 /* Poppins-Black.ttf in Resources */,
+				22A09EBC7B3F4074A4057E85 /* Poppins-BlackItalic.ttf in Resources */,
+				0FA39F9D203945A48D3708B9 /* Poppins-Bold.ttf in Resources */,
+				A42273862DF03F0700A3C0D4 /* SimpleLineIcons.ttf in Resources */,
+				A42273872DF03F0700A3C0D4 /* Feather.ttf in Resources */,
+				A42273882DF03F0700A3C0D4 /* FontAwesome5_Solid.ttf in Resources */,
+				A42273892DF03F0700A3C0D4 /* FontAwesome.ttf in Resources */,
+				A422738A2DF03F0700A3C0D4 /* AntDesign.ttf in Resources */,
+				A422738B2DF03F0700A3C0D4 /* EvilIcons.ttf in Resources */,
+				A422738C2DF03F0700A3C0D4 /* Foundation.ttf in Resources */,
+				A422738D2DF03F0700A3C0D4 /* FontAwesome6_Brands.ttf in Resources */,
+				A422738E2DF03F0700A3C0D4 /* MaterialCommunityIcons.ttf in Resources */,
+				A422738F2DF03F0700A3C0D4 /* FontAwesome5_Regular.ttf in Resources */,
+				A42273902DF03F0700A3C0D4 /* FontAwesome6_Solid.ttf in Resources */,
+				A42273912DF03F0700A3C0D4 /* Octicons.ttf in Resources */,
+				A42273922DF03F0700A3C0D4 /* FontAwesome6_Regular.ttf in Resources */,
+				A42273932DF03F0700A3C0D4 /* Zocial.ttf in Resources */,
+				A42273942DF03F0700A3C0D4 /* Entypo.ttf in Resources */,
+				A42273952DF03F0700A3C0D4 /* MaterialIcons.ttf in Resources */,
+				A42273962DF03F0700A3C0D4 /* FontAwesome5_Brands.ttf in Resources */,
+				A42273972DF03F0700A3C0D4 /* Ionicons.ttf in Resources */,
+				A42273982DF03F0700A3C0D4 /* Fontisto.ttf in Resources */,
+				7AEAA588AEE8411D83422F91 /* Poppins-BoldItalic.ttf in Resources */,
+				214EE94B5DAF462797132CC4 /* Poppins-ExtraBold.ttf in Resources */,
+				8A1BC41107A7439E9A3FD02F /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				6CEED1D55EEA4A40AEDB8A94 /* Poppins-ExtraLight.ttf in Resources */,
+				52A93B4E92074073941B41A5 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				82470601633A468A93956DEE /* Poppins-Italic.ttf in Resources */,
+				97B25E5B3339496CABEF2766 /* Poppins-Light.ttf in Resources */,
+				6B27C8B4F7BB49D8A1544606 /* Poppins-LightItalic.ttf in Resources */,
+				F5BF3D453BDD4E8FA50744EF /* Poppins-Medium.ttf in Resources */,
+				EA5A4A0FECC54FCC8A81C94D /* Poppins-MediumItalic.ttf in Resources */,
+				9FE66DEAA0F54ACF8C7A2FCF /* Poppins-Regular.ttf in Resources */,
+				9F33A584A0334D6DADBADF96 /* Poppins-SemiBold.ttf in Resources */,
+				88704BAA4BDA4DCDBC89C5BF /* Poppins-SemiBoldItalic.ttf in Resources */,
+				041D594696D2474FA484AC82 /* Poppins-Thin.ttf in Resources */,
+				DC880DB367504842961D4AAD /* Poppins-ThinItalic.ttf in Resources */,
+				78F5CE33F1BF4DF08C37AAD3 /* Reddit Sans Black.ttf in Resources */,
+				0E23D2BBC2AA4032A0F9460E /* RedditSans-BlackItalic.ttf in Resources */,
+				26EE7EA42AC545728C51D213 /* RedditSans-Bold.ttf in Resources */,
+				9F6EDF0B13E345F7B34A6290 /* RedditSans-BoldItalic.ttf in Resources */,
+				F5A0037F0C3045E9A3562478 /* RedditSans-ExtraBold.ttf in Resources */,
+				5C00980B51C245CBB64124CA /* RedditSans-ExtraBoldItalic.ttf in Resources */,
+				68E82227D066419DBE080AEA /* RedditSans-ExtraLight.ttf in Resources */,
+				D05D26EB78BE48E6941D1EC7 /* RedditSans-ExtraLightItalic.ttf in Resources */,
+				753EF9B8C57742EDA8F3AD32 /* RedditSans-Italic.ttf in Resources */,
+				D680B66C17B3484C8EA02344 /* RedditSans-Light.ttf in Resources */,
+				DE553CFD76534238A8224DD6 /* RedditSans-LightItalic.ttf in Resources */,
+				9C4FEC25FC0743FDACC75E03 /* RedditSans-Medium.ttf in Resources */,
+				7C45F4D4D42948DBBD4C0A96 /* RedditSans-MediumItalic.ttf in Resources */,
+				2398DB5C469045E3A9398E3C /* RedditSans-Regular.ttf in Resources */,
+				5A3326B178D7418283C5DA43 /* RedditSans-SemiBold.ttf in Resources */,
+				1CA0107A35F84907B0BDD15C /* RedditSans-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-planpal/Pods-planpal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-planpal/Pods-planpal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-planpal/Pods-planpal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-planpal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-planpal/Pods-planpal-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-planpal/Pods-planpal-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-planpal/Pods-planpal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-planpal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JPPMZZW9P;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = planpal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlanPal;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = planpal;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-planpal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JPPMZZW9P;
+				INFOPLIST_FILE = planpal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlanPal;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = planpal;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "planpal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "planpal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
