@@ -27,7 +27,7 @@ const HeadingBar = () => {
   return (
     <View className="w-full items-center justify-between flex-row h-[30px]">
       <View className=" h-full flex-row items-center justify-start gap-[16px]">
-        <View className="w-[5px] h-full bg-[--color-primary] rounded-[5px]"></View>
+        <View className="w-[5px] h-full bg-[--color-primary] rounded-[5px]" />
         <View className="flex-row items-center gap-[8px]">
           <Text className="font-Poppins_Bold text-[20px]">Morning</Text>
           <View className="flex justify-center align-center bg-[--color-surface-container] rounded-[4px] aspect-square h-[20px]">

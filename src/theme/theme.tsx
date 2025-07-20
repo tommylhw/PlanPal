@@ -3,7 +3,6 @@ import {View, ViewProps} from 'react-native';
 import {vars, useColorScheme} from 'nativewind';
 
 export const themes = {
-  // default: {
   light: vars({
     '--color-primary': '#F19254',
     '--color-secondary': '#607196',
@@ -28,7 +27,6 @@ export const themes = {
     '--color-on-surface-container': '#FFFFFF',
     '--color-black': '#FFFFFF',
   }),
-  // },
 };
 
 export type ModeType = 'light' | 'dark' | 'system';

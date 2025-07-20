@@ -63,7 +63,7 @@ const MainTab = ({
           return null;
       }
     },
-    [closeModal],
+    [],
   );
 
   return (

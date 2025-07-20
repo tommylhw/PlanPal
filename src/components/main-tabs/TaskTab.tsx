@@ -27,7 +27,7 @@ const TaskTab = () => {
   return (
     <View className="flex-1 bg-[--color-surface] items-center justify-start py-[16px]">
       <HeadingBar />
-      <TaskContainer />
+      <TaskContainer type={"TASK"} />
     </View>
   );
 };

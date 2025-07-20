@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import 'react-native-url-polyfill/auto';
 import { supabase } from "../utils/supabase";
 import { Session } from '@supabase/supabase-js';

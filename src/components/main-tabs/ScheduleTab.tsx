@@ -5,7 +5,7 @@ import React, {
   useRef,
   useEffect,
 } from "react";
-import { useFocusEffect } from "@react-navigation/native";
+import {useFocusEffect} from "@react-navigation/native";
 import {
   SafeAreaView,
   StatusBar,
@@ -18,15 +18,17 @@ import {
   useWindowDimensions,
 } from "react-native";
 
+// components
+import HeadingBar from "../HeadingBar";
+import TaskContainer from "../TaskContainer";
 
 const ScheduleTab = () => {
   return (
-    <View className="flex-1 bg-[--color-surface] items-center justify-center">
-      <Text className="text-[--color-text] text-[20px] font-bold">
-        Schedule Tab
-      </Text>
+    <View className="flex-1 bg-[--color-surface] items-center justify-start py-[16px]">
+      <HeadingBar />
+      <TaskContainer type={"SCHEDULE"} />
     </View>
-  )
-}
+  );
+};
 
-export default ScheduleTab
+export default ScheduleTab;

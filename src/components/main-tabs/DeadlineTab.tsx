@@ -5,7 +5,7 @@ import React, {
   useRef,
   useEffect,
 } from "react";
-import { useFocusEffect } from "@react-navigation/native";
+import {useFocusEffect} from "@react-navigation/native";
 import {
   SafeAreaView,
   StatusBar,
@@ -18,15 +18,17 @@ import {
   useWindowDimensions,
 } from "react-native";
 
+// components
+import HeadingBar from "../HeadingBar";
+import TaskContainer from "../TaskContainer";
 
 const DeadlineTab = () => {
   return (
-    <View className="flex-1 bg-[--color-surface] items-center justify-center">
-      <Text className="text-[--color-text] text-[20px] font-bold">
-        Deadline Tab
-      </Text>
+    <View className="flex-1 bg-[--color-surface] items-center justify-start py-[16px]">
+      <HeadingBar />
+      <TaskContainer type={"DEADLINE"} />
     </View>
-  )
-}
+  );
+};
 
-export default DeadlineTab
+export default DeadlineTab;
