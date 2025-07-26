@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import {
   SafeAreaView,
   ScrollView,
@@ -11,15 +11,16 @@ import {
   Image,
 } from "react-native";
 
-import { NavigationContainer } from "@react-navigation/native";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import {NavigationContainer} from "@react-navigation/native";
+import {createNativeStackNavigator} from "@react-navigation/native-stack";
+import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
 
 // Backend
-import { AuthGetCurrentUser } from "../utils/auth";
+import {AuthGetCurrentUser} from "../utils/auth";
 
 // Screens
 import SplashScreen from "../screens/auth/SplashScreen";
+import EditScreen from "../screens/EditScreen";
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -28,10 +29,10 @@ const Tab = createBottomTabNavigator();
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import Feather from "react-native-vector-icons/Feather";
 import HomeSvg from "../assets/svgs/HomeSvg";
-import { SvgUri } from "react-native-svg";
+import {SvgUri} from "react-native-svg";
 
 // Redux Toolkit
-import { useSelector, useDispatch } from "react-redux";
+import {useSelector, useDispatch} from "react-redux";
 import {
   setIsSignedIn,
   setCurrentUserEmail,
@@ -62,8 +63,7 @@ const SplahNavigator = () => {
       initialRouteName="SplahNavigator_SplashScreen"
       screenOptions={{
         headerShown: false,
-      }}
-    >
+      }}>
       <Stack.Screen
         name="SplahNavigator_SplashScreen"
         component={SplashScreen}
@@ -78,8 +78,7 @@ const AuthNavigator = () => {
       initialRouteName="AuthNavigator_WelcomeScreen"
       screenOptions={{
         headerShown: false,
-      }}
-    >
+      }}>
       <Stack.Screen
         name="AuthNavigator_SplashScreen"
         component={SplashScreen}
@@ -140,8 +139,8 @@ const BottomTabNavigator = () => {
           // bottom: 25,
 
           elevation: 5, // For Android shadow
-          shadowColor: '#ebebeb', // For iOS shadow
-          shadowOffset: { width: 4, height: 4 },
+          shadowColor: "#ebebeb", // For iOS shadow
+          shadowOffset: {width: 4, height: 4},
           shadowOpacity: 0.1,
           shadowRadius: 50,
           borderWidth: 0,
@@ -149,7 +148,7 @@ const BottomTabNavigator = () => {
         },
         tabBarItemStyle: {
           padding: 10,
-          height: '100%',
+          height: "100%",
           alignItems: "center",
         },
         tabBarLabelStyle: {
@@ -157,13 +156,12 @@ const BottomTabNavigator = () => {
           fontFamily: "Poppins Regular",
         },
         tabBarShowLabel: true,
-      }}
-    >
+      }}>
       <Tab.Screen
         name="BottomTabNavigator_HomeScreen"
-        component={HomeScreen}
+        component={HomeStackNavigator}
         options={{
-          tabBarIcon: ({ color, size }) => (
+          tabBarIcon: ({color, size}) => (
             // <HomeSvg width={size} height={size} />
             <Image
               source={require("../assets/icon/home_icon.png")}
@@ -175,14 +173,13 @@ const BottomTabNavigator = () => {
               }}
             />
           ),
-          tabBarLabel: ({ focused }) => (
+          tabBarLabel: ({focused}) => (
             <Text
               className="text-on-surface"
               style={{
                 fontFamily: "Poppins Regular",
                 color: focused ? "#000" : "#949699",
-              }}
-            >
+              }}>
               Home
             </Text>
           ),
@@ -193,7 +190,7 @@ const BottomTabNavigator = () => {
         name="BottomTabNavigator_CalendarScreen"
         component={SplashScreen}
         options={{
-          tabBarIcon: ({ color }) => (
+          tabBarIcon: ({color}) => (
             <Image
               source={require("../assets/icon/calendar_icon.png")}
               alt="Calendar Icon"
@@ -204,14 +201,13 @@ const BottomTabNavigator = () => {
               }}
             />
           ),
-          tabBarLabel: ({ focused }) => (
+          tabBarLabel: ({focused}) => (
             <Text
               className="text-on-surface"
               style={{
                 fontFamily: "Poppins Regular",
                 color: focused ? "#000" : "#949699",
-              }}
-            >
+              }}>
               Calendar
             </Text>
           ),
@@ -222,22 +218,21 @@ const BottomTabNavigator = () => {
         name="BottomTabNavigator_AccountScreen"
         component={AccountStackNavigator}
         options={{
-          tabBarIcon: ({ color }) => (
-              <Image
-                source={require("../assets/icon/profile/user-1.jpg")}
-                alt="Account Icon"
-                className="w-[24px] h-[24px] rounded-full border-2 border-black"
-                // resizeMode="contain"
-              />
+          tabBarIcon: ({color}) => (
+            <Image
+              source={require("../assets/icon/profile/user-1.jpg")}
+              alt="Account Icon"
+              className="w-[24px] h-[24px] rounded-full border-2 border-black"
+              // resizeMode="contain"
+            />
           ),
-          tabBarLabel: ({ focused }) => (
+          tabBarLabel: ({focused}) => (
             <Text
               className="text-on-surface"
               style={{
                 fontFamily: "Poppins Regular",
                 color: focused ? "#000" : "#949699",
-              }}
-            >
+              }}>
               Account
             </Text>
           ),
@@ -247,14 +242,32 @@ const BottomTabNavigator = () => {
   );
 };
 
+const HomeStackNavigator = () => {
+  return (
+    <Stack.Navigator
+      initialRouteName="HomeStackNavigator_HomeScreen"
+      screenOptions={{
+        headerShown: false,
+      }}>
+      <Stack.Screen
+        name="HomeStackNavigator_HomeScreen"
+        component={HomeScreen}
+      />
+      <Stack.Screen
+        name="HomeStackNavigator_EditScreen"
+        component={EditScreen}
+      />
+    </Stack.Navigator>
+  );
+}
+
 const AccountStackNavigator = () => {
   return (
     <Stack.Navigator
       initialRouteName="AccountStackNavigator_AccountScreen"
       screenOptions={{
         headerShown: false,
-      }}
-    >
+      }}>
       <Stack.Screen
         name="AccountStackNavigator_AccountScreen"
         component={AccountScreen}
@@ -265,7 +278,7 @@ const AccountStackNavigator = () => {
       />
     </Stack.Navigator>
   );
-}
+};
 
 const RootNavigator = () => {
   const dispatch = useDispatch();

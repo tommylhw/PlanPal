@@ -184,7 +184,6 @@ module.exports = {
         RedditSans_Medium: ['RedditSans-Medium'],
         RedditSans_Regular: ['RedditSans-Regular'],
         Poppins_Bold: ['Poppins-Bold'],
-        RedditSans_Italic: ['Poppins-Italic'],
         Poppins_Medium: ['Poppins-Medium'],
         Poppins_Regular: ['Poppins-Regular'],
       },

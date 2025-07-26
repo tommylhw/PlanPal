@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   ScrollView,
   StatusBar,
@@ -7,7 +7,10 @@ import {
   useColorScheme,
   View,
   SafeAreaView,
-} from 'react-native';
+} from "react-native";
+
+// components
+import AddBtn from "./AddBtn";
 
 const TopSection = () => {
   return (
@@ -23,6 +26,8 @@ const TopSection = () => {
           Saturday
         </Text>
       </View>
+
+      <AddBtn />
     </View>
   );
 };

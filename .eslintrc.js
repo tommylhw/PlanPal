@@ -10,5 +10,7 @@ module.exports = {
     'quotes': 'off',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
+    'react/no-unstable-nested-components': 'off',
+    'react-hooks/exhaustive-deps': 'off',
   },
 };
